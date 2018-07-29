@@ -12,8 +12,6 @@ body{
 header, nav, footer{
     height:50px;
     padding: 0px;
-}
-header, nav, footer{
     background-color: #ebebeb;
     color: #777;
     position: relative;
