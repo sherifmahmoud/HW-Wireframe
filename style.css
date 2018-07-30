@@ -10,7 +10,7 @@ body{
     font-size: 18px;
 }
 header, nav, footer{
-    height:50px;
+    height:60px;
     padding: 0px;
     background-color: #ebebeb;
     color: #777;
@@ -22,15 +22,16 @@ section{
     width: 495px;
     height: 250px;
     float: left;
-    padding-top:12px;
-    margin-left: 0px
+    padding-top: 12px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
 aside{
     background-color: #ebebeb;
     color: #777;
-    width: 445px;
+    width: 440px;
     height: 250px;
-    padding-top:12px;
+    padding-top: 12px;
     margin-right: 0px;
 }
 article{
@@ -62,6 +63,8 @@ h3, p{
     height: 270px;
     width: 960px;
     display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .column {
     float: left;
@@ -71,5 +74,5 @@ h3, p{
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(0, -60%)
 }
